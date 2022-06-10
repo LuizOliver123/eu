@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{background-color: #202020; height: 1000px;position: fixed;}
+
+section{width: 700px;  height: 100%; background-color:salmon;}
+
+section h1{padding: 5%; font-family: 'Roboto', sans-serif; font-size: 28px;}
+
+section p{padding-left: 5%; font-family: 'Roboto', sans-serif;}
