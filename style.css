@@ -5,10 +5,14 @@
     margin: 0;
 }
 
-body{background-color: #202020; height: 1000px;position: fixed;}
+.container{height: 1000px;display: flex; position: fixed; color: white;}
 
-section{width: 700px;  height: 100%; background-color:salmon;}
+.sec1{width: 700px;  height: 100%; background-color:rgb(122, 122, 211); box-shadow: 0px 0px 10px 0px black;z-index: 1; }
 
-section h1{padding: 5%; font-family: 'Roboto', sans-serif; font-size: 28px;}
+.sec1 h1{padding: 5%; font-family: 'Roboto', sans-serif; font-size: 28px;}
 
-section p{padding-left: 5%; font-family: 'Roboto', sans-serif;}
+.sec1 p{padding-left: 5%; font-family: 'Roboto', sans-serif;}
+
+.sec2{width: 1150px;  height: 1000px; background-color:salmon; background-image: url(img/wallpaperviolett.png); background-repeat: no-repeat; background-size: cover;}
+
+
